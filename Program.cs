@@ -4,14 +4,33 @@ namespace NumbersInCSharp
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            WorkingWithIntegers();
-            OrderPrecedence();
+            TestLimits();
         }
 
 
-        static void OrderPrecedence()
+        public static void TestLimits()
+        {
+            int a = 7;
+            int b = 4;
+            int c = 3;
+            int d = (a + b) / c;
+            int e = (a + b) % c;
+            Console.WriteLine($"quotient: {d}");
+            Console.WriteLine($"remainder: {e}");
+
+            int max = int.MaxValue;
+            int min = int.MinValue;
+
+            int what = max + 3;
+            Console.WriteLine($"An example of overflow: {what}");
+
+            Console.WriteLine($"The range of integers is {min} to {max}");
+        }
+
+
+        public static void OrderPrecedence()
         {
             // WorkingWithIntegers();
             int a = 5;
@@ -33,7 +52,7 @@ namespace NumbersInCSharp
             Console.WriteLine(h);
         }
 
-        static void WorkingWithIntegers()
+        public static void WorkingWithIntegers()
         {
             int a = 18;
             int b = 6;
