@@ -63,25 +63,33 @@ namespace BranchesAndLoops
             // }
 
 
-            for (int row = 1; row < 11; row++)
+            // for (int row = 1; row < 11; row++)
+            // {
+            //     Console.WriteLine($"The row is {row}");
+            // }
+            //
+            // for (char column = 'a'; column < 'k'; column++)
+            // {
+            //     Console.WriteLine($"The column is {column}");
+            // }
+            //
+            // for (int row = 1; row < 11; row++)
+            // {
+            //     for (char column = 'a'; column < 'k'; column++)
+            //     {
+            //         Console.WriteLine($"The cell is ({row}, {column})");
+            //     }
+            // }
+
+            int i = 0;
+            int res = 0;
+
+            while (i < 20)
             {
-                Console.WriteLine($"The row is {row}");
+                if (i % 3 == 0) res += i;
+                i++;
             }
-
-            for (char column = 'a'; column < 'k'; column++)
-            {
-                Console.WriteLine($"The column is {column}");
-            }
-
-            for (int row = 1; row < 11; row++)
-            {
-                for (char column = 'a'; column < 'k'; column++)
-                {
-                    Console.WriteLine($"The cell is ({row}, {column})");
-                }
-            }
-
-
+            Console.WriteLine(res);
         }
     }
 }
