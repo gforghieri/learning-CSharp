@@ -4,3 +4,17 @@ obj/
 bin/Debug/netcoreapp3.1/
 
 .vs/NumbersInCSharp/v16/Server/sqlite3/
+
+.vs/learning-CSharp/v16/
+
+*.v2
+
+BranchesAndLoops/bin/Debug/netcoreapp3.1/
+
+NumbersInCSharp/bin/Debug/netcoreapp3.1/
+
+.vs/NumbersInCSharp/v16/
+
+.vs/slnx.sqlite
+
+.vs/VSWorkspaceState.json
