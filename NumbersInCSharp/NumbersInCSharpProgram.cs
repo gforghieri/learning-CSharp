@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace NumbersInCSharp
 {
@@ -9,7 +10,7 @@ namespace NumbersInCSharp
             double radius = 2.5;
             double circleArea = Math.Pow(radius, 2) * Math.PI;
 
-            Console.WriteLine($"The area of the circle with a radius of {radius} is {circleArea}");
+            WriteLine($"The area of the circle with a radius of {radius} is {circleArea}");
         }
 
         public static void WorkWithDecimals()
