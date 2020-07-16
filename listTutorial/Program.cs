@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace list_tutorial
+namespace listTutorial
 {
     class Program
     {
