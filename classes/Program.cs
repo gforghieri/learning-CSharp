@@ -33,6 +33,7 @@ namespace classes
             //     Console.WriteLine("Exception caught trying to overdraw");
             //     Console.WriteLine(e.ToString());
             // }
+            //test
             Console.WriteLine(account.GetAccountHistory());
         }
     }
