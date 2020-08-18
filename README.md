@@ -1,2 +1,2 @@
 # learning-csharp-dotnet
-learning C#, .NET Core, ASP.NET, Entity Framework
+learning C#, .NET Core, ASP.NET, Microsoft Entity Framework
